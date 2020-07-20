@@ -1,0 +1,61 @@
+@import '../../../../Dropbox/WebProjects/Global_SCSS/resets';
+@import '../../../../Dropbox/WebProjects/Testing-SASS/SCSS/functions';
+@import '../../../../Dropbox/WebProjects/Testing-SASS/SCSS/variables';
+
+#main{
+    @include flexCenter(column);
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+
+#title {
+    @include flexCenter(row);
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    
+    h1 {
+        font-size: 2.65rem;
+        white-space: nowrap;
+    }
+}
+#img-div {
+    @include flexCenter(column);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    #image{
+        max-width: 95%;
+        display: block;
+        height: auto;
+        margin: 5px auto;
+    }
+    #img-caption {
+        margin: 10px;
+        font-size: 1.2rem;
+    }
+}
+
+#tribute-info {
+    display: block;
+    max-width: 100%;
+    text-align: justify;
+    margin-top: 10px;
+    h3{
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 20px auto;
+    }
+}
+
+ul {
+    display: block;
+    line-height: 1.6em;
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 10px 50px 50px 50px;
+    li{
+        margin: 10px auto;
+    }
+}
