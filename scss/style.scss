@@ -1,6 +1,6 @@
-@import '../../../../Dropbox/WebProjects/Global_SCSS/resets';
-@import '../../../../Dropbox/WebProjects/Testing-SASS/SCSS/functions';
-@import '../../../../Dropbox/WebProjects/Testing-SASS/SCSS/variables';
+@import '../../../../../Dropbox/WebProjects/Global_SCSS/resets';
+@import '../../../../../Dropbox/WebProjects/Testing-SASS/SCSS/functions';
+@import '../../../../../Dropbox/WebProjects/Testing-SASS/SCSS/variables';
 
 #main{
     @include flexCenter(column);
